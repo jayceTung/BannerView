@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BannerView">
+        <attr name="bv_interval" format="integer"/>
+        <attr name="bv_showIndicator" format="boolean"/>
+        <attr name="bv_indicatorSelectedSrc" format="color|reference"/>
+        <attr name="bv_indicatorUnselectedSrc" format="color|reference"/>
+        <attr name="bv_indicatorSize" format="dimension|reference"/>
+        <attr name="bv_indicatorSpace" format="dimension|reference"/>
+        <attr name="bv_indicatorMargin" format="dimension|reference"/>
+        <attr name="bv_indicatorGravity" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
